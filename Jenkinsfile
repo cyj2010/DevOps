@@ -4,19 +4,19 @@ pipeline {
         stage('Build') { 
             steps {
                 // 
-				echo 'building process'
+				echo 'Building process'
             }
         }
         stage('Test') { 
             steps {
                 // 
-				echo 'test process'
+				echo 'Test process'
             }
         }
         stage('Deploy') { 
             steps {
                 //
-				echo 'deploy process'
+				echo 'Deploy process'
             }
         }
     }
